@@ -8,7 +8,9 @@ The dataset used in this project is a microcosm of massive amount of news conten
 ### train.csv
 
 <br />
+
 The training data consisted of four columns. id is the unique identifier of each news item; label tells us the news_type of the new item; The desciption of label can be found in label_desc column; sentence is the title of the news item.
+
 <br />
 
 ![](train.png)
@@ -18,10 +20,13 @@ The training data consisted of four columns. id is the unique identifier of each
 ### test.csv
 
 <br />
+
 As mentioned before, test data consisted of only two columns, id and sentence.
+
 <br />
 
 ![](test.png)
+
 <br />
 
 This project aims to train several deep learning models to perform the text classification task. Since only training set provides actuall labels, the model is trained on a subset of the training data and evaluated on the validation set, a smaller subset of the training data. The models used are TextCNN, Bert for Sequence Classification, Bert + CNN head (1d conv + adaptive max pool), Nezha (Neural Contextualized Representation for Chinese Language Understanding). 
@@ -39,6 +44,9 @@ The training was done on Google Colab. Model training of each model can be execu
 ## Reference:
 
 TextCNN: https://arxiv.org/abs/1408.5882
+<br />
 Nezha: https://arxiv.org/abs/1909.00204
+<br />
 Bert: https://arxiv.org/abs/1810.04805
+<br />
 Attention is All You Need: https://arxiv.org/abs/1706.03762
