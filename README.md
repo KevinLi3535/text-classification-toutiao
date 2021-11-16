@@ -32,7 +32,7 @@ As mentioned before, test data consisted of only two columns, id and sentence.
 
 <br />
 
-This project aims to train several deep learning models to perform the text classification task. Since only training set provides actuall labels, the model is trained on a subset of the training data and evaluated on the validation set, a smaller subset of the training data. The models used are TextCNN, Bert for Sequence Classification, Bert + CNN head (1d conv + adaptive max pool), Nezha (Neural Contextualized Representation for Chinese Language Understanding). 
+This project aims to train several deep learning models to perform the text classification task. Since only training set provides actual labels, the model is trained on a subset of the training data and evaluated on the validation set, a smaller subset of the training data. The models used are TextCNN, Bert for Sequence Classification, Bert + CNN head (1d conv + adaptive max pool), Nezha (Neural Contextualized Representation for Chinese Language Understanding). 
 
 <br />
 
